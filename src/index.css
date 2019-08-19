@@ -1,0 +1,37 @@
+.app {
+  background: red;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.modal-content {
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 100;
+  background: grey;
+}
+
+.modal-content > button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
